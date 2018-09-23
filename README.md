@@ -13,3 +13,15 @@ Python kodlama
     * Canny algoritması ile kenarları algıla 
     * Kapalı dış konturların tamamını oku
     * Okunan kontur sayısı zarın yüzündeki dairelerin sayısı, dolayısıyla zarın hangi yüzünün geldiği
+    
+2. JPEG Resim
+    
+    Zarın standart kamera ile çekilmiş JPEG fotoğraflarından zarın hangi yüzünün geldiğinin algılanması. 
+    İzlenen yol :
+    * Resmi oku ve eşik değer resmini al 
+    * Eşik değer resme Gaussian bulankılık uygula
+    * Canny algoritması ile kenarları algıla 
+    * Kapalı dış konturların tamamını oku
+    * Okunan kontur sayısı zarın yüzündeki dairelerin sayısı, dolayısıyla zarın hangi yüzünün geldiği
+    
+
